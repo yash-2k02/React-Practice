@@ -1,0 +1,12 @@
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.facebook-logo,
+.twitter-logo,
+.github-logo{
+    width: 25px;
+    height: 25px;
+}

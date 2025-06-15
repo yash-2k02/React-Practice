@@ -1,0 +1,129 @@
+.card-container {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    margin: 40px auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.card-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-date-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-image-container {
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.card-event-date {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+.card-category {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1440px) {
+    .card-container {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-container {
+        width: 80vw;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card-date-container {
+        gap: 20px;
+    }
+
+    .card-image-container {
+        width: 180px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        width: 90vw;
+    }
+
+    .card-image-container {
+        width: 150px;
+        height: 110px;
+    }
+
+    .card-title-container {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        padding: 15px;
+    }
+
+    .card-image-container {
+        width: 120px;
+        height: 90px;
+    }
+
+    .card-title-container {
+        font-size: 18px;
+    }
+
+    .card-event-date {
+        font-size: 12px;
+    }
+
+    .card-category {
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+}
