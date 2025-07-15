@@ -1,0 +1,27 @@
+.card-date-box {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.card-date {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.card-month {
+    background-color: #3498db;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    /* color: black; */
+}
+
+.card-year {
+    font-size: 11px;
+    color: #999;
+}
