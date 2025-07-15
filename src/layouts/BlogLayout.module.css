@@ -1,0 +1,26 @@
+.marginRight{
+    margin-right: 30px;
+}
+.margin{
+    margin: 10px;
+}
+.navButtonColor{
+    color: white;
+}
+
+.header{
+    color: #fff;
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.paddingMain{
+    padding: 20px;
+}
+
+.footer{
+    background: #222; 
+    padding: 10px;
+    color: white
+}
