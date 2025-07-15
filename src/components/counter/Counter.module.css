@@ -1,0 +1,8 @@
+.actionButtons{
+    display: flex;
+    gap: 20px;
+}
+
+.decreaseButton{
+    margin-left: 10px;
+}
