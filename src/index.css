@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.hero-scrollbar::-webkit-scrollbar {
+  width: 11px;
+}
+
+.hero-scrollbar::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+.hero-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b4b4b;
+  border-radius: 10px;
+}
+
+.hero-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
