@@ -1,0 +1,74 @@
+.chartWrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.detailsContainer {
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.detailsContainer h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #2c3e50;
+}
+
+.detailsContainer p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.detailsContainer strong {
+  color: #555;
+}
+
+.chartContainer {
+  width: 100%;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .chartWrapper {
+    padding: 1rem;
+  }
+
+  .detailsContainer {
+    padding: 1rem;
+  }
+
+  .detailsContainer h2 {
+    font-size: 1.4rem;
+  }
+
+  .detailsContainer p {
+    font-size: 0.95rem;
+  }
+
+  .recharts-responsive-container {
+    height: 300px !important;
+  }
+}
